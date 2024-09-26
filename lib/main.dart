@@ -37,7 +37,6 @@ class ProfileApp extends StatelessWidget {
               ),
               SizedBox(height: 0),
 
-              // Information sections
               ProfileInfoRow(label: 'Address:                         ', data: 'San Isidro, Jaro, Iloilo'),
               ProfileInfoRow(label: 'Birthdate:                       ', data: 'May 09, 2004'),
               ProfileInfoRow(label: 'Email:                             ', data: 'rhazelmay.despi@wvsu.edu.ph'),
@@ -47,7 +46,6 @@ class ProfileApp extends StatelessWidget {
 
               SizedBox(height: 0),
 
-              // Biography section
               Container(
                 color: const Color.fromARGB(255, 196, 255, 218), // Background color
                 padding: EdgeInsets.all(16.0),
@@ -85,7 +83,7 @@ class ProfileInfoRow extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Container(
-          color: const Color.fromARGB(255, 196, 255, 218), // Background color
+          color: const Color.fromARGB(255, 196, 255, 218),
           padding: EdgeInsets.all(10.0),
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.start,
